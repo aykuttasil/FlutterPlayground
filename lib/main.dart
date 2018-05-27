@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterplayground/ui/page/englishwords.dart';
 import 'package:http/http.dart' as http;
 
 void main() => runApp(new MyApp());
@@ -7,12 +8,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'Flutter Demo',
-      theme: new ThemeData(
-        primarySwatch: Colors.amber,
-      ),
-      home: new MyHomePage(title: 'Flutter Demo Home Page'),
-    );
+        title: 'Flutter Demo',
+        theme: new ThemeData(
+          primarySwatch: Colors.amber,
+        ),
+        //home: new MyHomePage(title: 'Flutter Demo Home Page'),
+        home: new EnglishWordsPage());
   }
 }
 
