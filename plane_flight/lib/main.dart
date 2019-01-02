@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         primaryTextTheme: TextTheme(
           display1: TextStyle(
-            color: Colors.green,
+            color: Colors.red,
           ),
         ),
       ),
