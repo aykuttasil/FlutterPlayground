@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
 
 class ChronemeterPage extends StatefulWidget {
@@ -53,7 +54,7 @@ class ChronemeterPageState extends State<ChronemeterPage> {
   _changeText() {
     setState(() {
       x += 1;
-      Future.delayed(Duration(milliseconds: 1000), () => _changeText());
+      Future.delayed(Duration(milliseconds: 3000), () => _changeText());
     });
   }
 

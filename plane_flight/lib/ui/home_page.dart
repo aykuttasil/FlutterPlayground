@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           AirAsiaBar(
-            height: 200,
+            height: 300,
           ),
           Positioned.fill(
             child: Padding(
